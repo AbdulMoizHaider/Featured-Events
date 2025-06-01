@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Featured Events</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo"><i class="fas fa-calendar-week"></i> FeaturedEvents</div>
+
+
+    <!-- Navigation Links -->
+    <nav id="navMenu">
+      <ul class="nav-links">
+        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#events"><i class="fas fa-star"></i> Events</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search events by name..." />
+      <i class="fas fa-search"></i>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1><i class="fas fa-map-marker-alt"></i> Discover Events Near You</h1>
+    <p>Explore exciting happenings in your city – all in one place.</p>
+    <a href="#events" class="btn-primary">View Events</a>
+  </section>
+
+  <!-- Featured Events -->
+  <section class="events-section" id="events">
+    <h2 class="section-title"><i class="fas fa-star"></i> Featured Events</h2>
+    <div class="events-container" id="eventsContainer">
+      <!-- Cards will be injected by JavaScript -->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-section" id="contact">
+    <h2><i class="fas fa-envelope-open-text"></i> Contact Us</h2>
+    <p>Want to feature your event? Reach out to us today!</p>
+    <a href="mailto:rajaabdulmoiz211@gmail.com" class="btn-secondary"><i class="fas fa-paper-plane"></i> Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Featured Events. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
